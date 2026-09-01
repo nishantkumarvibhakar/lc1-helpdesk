@@ -1,0 +1,419 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "Prashant Kumar Diwakar",
+      "username": "prashantdiwakar",
+      "email": "anubhavnishant1@gmail.com",
+      "password": "$2a$10$X9kS3R6ncF0FZjZeObBHW./lzKqu1RlzhzU.762kmZUDMe/V8cuK2",
+      "role": "admin",
+      "designation": "Presidential Candidate & Main Leader",
+      "studentId": "24LC10001",
+      "phone": "6206319802",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_student_01",
+      "name": "Aarav Sharma",
+      "email": "student@lc1.du.ac.in",
+      "password": "$2a$10$k1wP2Gq/66jYgq8p0p7FZe0kM6/U6eO9p3vE2YtB0/s0.4tZgI66I",
+      "role": "student",
+      "designation": "1st Year LL.B. (Section C)",
+      "studentId": "24LC10124",
+      "llbYear": "1st Year",
+      "section": "Section C",
+      "phone": "+91 98111 22334",
+      "isVerifiedLc1": true,
+      "createdAt": "2026-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "usr_1787393590611",
+      "name": "Sneha Patel",
+      "email": "sneha.patel@lc1.du.ac.in",
+      "studentId": "24LC10555",
+      "llbYear": "1st Year",
+      "section": "Section D",
+      "phone": "9876500112",
+      "password": "$2a$10$BbU6J9zIfAk4jMnTRthGXelr8JFmXIQSw57zCGqmH0ENwSgkekZ9W",
+      "role": "student",
+      "designation": "Law Centre-1 (1st Year - Section D)",
+      "isVerifiedLc1": true,
+      "createdAt": "2026-08-22T10:13:10.611Z"
+    },
+    {
+      "id": "usr_1787394284241",
+      "name": "nishant",
+      "email": "nishant@lc1.du.ac.in",
+      "studentId": "24LC1090909",
+      "llbYear": "1st Year",
+      "section": "Section A",
+      "phone": "",
+      "password": "$2a$10$GpblCROo/e4j2EKY4OCTjuGcJ/NqfSGujUEPc9WCNXKzTk4oGYBwe",
+      "role": "student",
+      "designation": "Law Centre-1 (1st Year - Section A)",
+      "isVerifiedLc1": true,
+      "createdAt": "2026-08-22T10:24:44.241Z"
+    },
+    {
+      "id": "usr_1787395630569",
+      "name": "nishant",
+      "email": "nishat@lc1.du.ac.in",
+      "studentId": "24LC12323232",
+      "llbYear": "1st Year",
+      "section": "Section A",
+      "phone": "",
+      "password": "$2a$10$MRcE8FBqLf0o1nu4gEPVBeWOxUyAuxTWgh4m5ZFMKJlVlyav9ldCm",
+      "role": "student",
+      "designation": "Law Centre-1 (1st Year - Section A)",
+      "isVerifiedLc1": true,
+      "createdAt": "2026-08-22T10:47:10.569Z"
+    }
+  ],
+  "notices": [],
+  "tickets": [
+    {
+      "id": "tkt_1787428483707",
+      "ticketId": "VOL-2026-74624",
+      "type": "Volunteer Application",
+      "studentName": "nishant",
+      "studentEmail": "nishant@lc1.du.ac.in",
+      "studentId": "24LC1090909",
+      "llbYear": "1st Year",
+      "section": "Section A",
+      "phone": "",
+      "isAnonymous": false,
+      "category": "Social Media & Content Team",
+      "subject": "video editing",
+      "description": "i will help you in video editing",
+      "priority": "Normal",
+      "status": "Resolved",
+      "assignedTo": "Priya Verma (Student Welfare Head)",
+      "attachment": null,
+      "attachmentUrl": null,
+      "timeline": [
+        {
+          "id": "tl_1787428483707",
+          "author": "nishant (1st Year)",
+          "role": "student",
+          "message": "🤝 Volunteer registration received by Campaign Team Prashant Diwakar.",
+          "timestamp": "2026-08-22T19:54:43.707Z"
+        },
+        {
+          "id": "tl_1787428588936",
+          "author": "Prashant Kumar Diwakar (Team Lead)",
+          "role": "admin",
+          "message": "Assigned to Priya Verma (Student Welfare Head).",
+          "timestamp": "2026-08-22T19:56:28.936Z"
+        },
+        {
+          "id": "tl_1787428599563",
+          "author": "Prashant Kumar Diwakar (Team Lead)",
+          "role": "admin",
+          "message": "Status updated to Pending.",
+          "timestamp": "2026-08-22T19:56:39.563Z"
+        },
+        {
+          "id": "tl_1787428614264",
+          "author": "Prashant Kumar Diwakar (Team Lead)",
+          "role": "admin",
+          "message": "Status updated to Resolved.",
+          "timestamp": "2026-08-22T19:56:54.264Z"
+        }
+      ],
+      "createdAt": "2026-08-22T19:54:43.707Z",
+      "updatedAt": "2026-08-22T19:56:54.264Z",
+      "resolutionNote": ""
+    },
+    {
+      "id": "tkt_1787398183409",
+      "ticketId": "LC1-2026-77613",
+      "type": "Issue",
+      "studentName": "Anonymous Student (LC-1)",
+      "studentEmail": "serie@gmail.com",
+      "studentId": "23LC1233445",
+      "llbYear": "1st Year",
+      "section": "Section A",
+      "phone": "",
+      "isAnonymous": true,
+      "category": "Water & Washroom Hygiene",
+      "subject": "water cooler",
+      "description": "not working",
+      "priority": "Normal",
+      "status": "Pending",
+      "assignedTo": "Unassigned (Team Prashant Diwakar)",
+      "attachment": null,
+      "attachmentUrl": null,
+      "timeline": [
+        {
+          "id": "tl_1787398183409",
+          "author": "Anonymous Student",
+          "role": "student",
+          "message": "🚨 Campus issue registered on LC-1 Student Support Portal.",
+          "timestamp": "2026-08-22T11:29:43.409Z"
+        },
+        {
+          "id": "tl_1787428688986",
+          "author": "Prashant Kumar Diwakar (Team Lead)",
+          "role": "admin",
+          "message": "Status updated to Pending.",
+          "timestamp": "2026-08-22T19:58:08.986Z"
+        }
+      ],
+      "createdAt": "2026-08-22T11:29:43.409Z",
+      "updatedAt": "2026-08-22T19:58:08.986Z",
+      "resolutionNote": ""
+    },
+    {
+      "id": "tkt_1787393590685",
+      "ticketId": "SUGG-2026-64215",
+      "type": "Manifesto Suggestion",
+      "studentName": "Sneha Patel",
+      "studentEmail": "sneha.patel@lc1.du.ac.in",
+      "studentId": "24LC10555",
+      "llbYear": "1st Year",
+      "section": "Section D",
+      "phone": "",
+      "isAnonymous": false,
+      "category": "Infrastructure & Smart Classrooms",
+      "subject": "Air conditioning in all 1st Year classrooms",
+      "description": "During summer afternoons, classrooms on the top floor become extremely hot. Please include AC installation for all LC-1 lecture halls in the manifesto.",
+      "priority": "Normal",
+      "status": "Pending",
+      "assignedTo": "Unassigned (Team Prashant Diwakar)",
+      "attachment": null,
+      "attachmentUrl": null,
+      "timeline": [
+        {
+          "id": "tl_1787393590685",
+          "author": "Sneha Patel (1st Year)",
+          "role": "student",
+          "message": "💡 Manifesto Idea submitted to Prashant Kumar Diwakar for LC-1 Student Council 2026.",
+          "timestamp": "2026-08-22T10:13:10.685Z"
+        }
+      ],
+      "createdAt": "2026-08-22T10:13:10.685Z",
+      "updatedAt": "2026-08-22T10:13:10.685Z"
+    },
+    {
+      "id": "tkt_01",
+      "ticketId": "LC1-2026-10492",
+      "type": "Issue",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "student@lc1.du.ac.in",
+      "studentId": "24LC10124",
+      "llbYear": "1st Year",
+      "section": "Section C",
+      "phone": "+91 98111 22334",
+      "isAnonymous": false,
+      "category": "Water & Washroom Hygiene",
+      "subject": "Water cooler on 2nd floor LC-1 is non-functional",
+      "description": "The water cooler near Classroom 204 has not been dispensing cold clean water for 4 days. Students have to go to ground floor between lectures.",
+      "priority": "High",
+      "status": "In Progress",
+      "assignedTo": "Rohit Kumar (Infrastructure Volunteer)",
+      "attachment": null,
+      "attachmentUrl": null,
+      "timeline": [
+        {
+          "id": "tl_01",
+          "author": "Aarav Sharma (1st Year)",
+          "role": "student",
+          "message": "Campus issue registered on LC-1 Student Support Portal.",
+          "timestamp": "2026-08-21T10:00:00.000Z"
+        },
+        {
+          "id": "tl_02",
+          "author": "Prashant Diwakar (Team Lead)",
+          "role": "admin",
+          "message": "Team Prashant Diwakar inspected the cooler. Written representation submitted to Caretaker & Section Officer for immediate filter replacement.",
+          "timestamp": "2026-08-21T14:30:00.000Z"
+        }
+      ],
+      "createdAt": "2026-08-21T10:00:00.000Z",
+      "updatedAt": "2026-08-21T14:30:00.000Z"
+    },
+    {
+      "id": "tkt_02",
+      "ticketId": "SUGG-2026-89211",
+      "type": "Manifesto Suggestion",
+      "studentName": "Kavya Deshmukh",
+      "studentEmail": "kavya@lc1.du.ac.in",
+      "studentId": "23LC10892",
+      "llbYear": "2nd Year",
+      "section": "Section F",
+      "phone": "+91 98711 00223",
+      "isAnonymous": false,
+      "category": "Library & Study Resources",
+      "subject": "Suggestion: Access to SCC Online & Manupatra off-campus for all students",
+      "description": "Please add remote off-campus proxy access for SCC Online and Manupatra to the manifesto. Currently we can only access them when connected to the faculty LAN in the library.",
+      "priority": "Normal",
+      "status": "Resolved",
+      "assignedTo": "Prashant Kumar Diwakar",
+      "attachment": null,
+      "attachmentUrl": null,
+      "resolutionNote": "Excellent suggestion! Added as Point #4 in our 10-Point Welfare Manifesto. We will demand institutional VPN login from the Dean's office.",
+      "timeline": [
+        {
+          "id": "tl_03",
+          "author": "Kavya Deshmukh (2nd Year)",
+          "role": "student",
+          "message": "Manifesto Idea submitted to Prashant Kumar Diwakar for LC-1 Student Council 2026.",
+          "timestamp": "2026-08-20T11:00:00.000Z"
+        },
+        {
+          "id": "tl_04",
+          "author": "Prashant Kumar Diwakar (Team Lead)",
+          "role": "admin",
+          "message": "Accepted & incorporated into the Official 10-Point Student Welfare Manifesto 2026.",
+          "timestamp": "2026-08-21T09:15:00.000Z"
+        }
+      ],
+      "createdAt": "2026-08-20T11:00:00.000Z",
+      "updatedAt": "2026-08-21T09:15:00.000Z"
+    },
+    {
+      "id": "tkt_03",
+      "ticketId": "VOL-2026-34821",
+      "type": "Volunteer Application",
+      "studentName": "Vikram Malhotra",
+      "studentEmail": "vikram@lc1.du.ac.in",
+      "studentId": "24LC10332",
+      "llbYear": "1st Year",
+      "section": "Section B",
+      "phone": "+91 99100 44556",
+      "isAnonymous": false,
+      "category": "Campaign Volunteering",
+      "subject": "Want to lead 1st Year Section B campaign coordination",
+      "description": "I would like to volunteer for Team Prashant Diwakar and coordinate class campaigning and manifesto feedback in Section B.",
+      "priority": "Normal",
+      "status": "Resolved",
+      "assignedTo": "Priya Verma (Volunteer Coordinator)",
+      "attachment": null,
+      "attachmentUrl": null,
+      "resolutionNote": "Vikram onboarded as Section B Coordinator for 1st Year LL.B.",
+      "timeline": [
+        {
+          "id": "tl_05",
+          "author": "Vikram Malhotra (1st Year)",
+          "role": "student",
+          "message": "Volunteer registration received by Campaign Team Prashant Diwakar.",
+          "timestamp": "2026-08-19T16:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-08-19T16:00:00.000Z",
+      "updatedAt": "2026-08-20T10:00:00.000Z"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq_01",
+      "category": "Campaign & Vision",
+      "question": "What is Prashant Kumar Diwakar's key vision for Law Centre-1?",
+      "answer": "Prashant Kumar Diwakar's vision is grounded in action, accessibility, and student rights: 24/7 accessible issue redressal, extended 10 PM AC library timings, guaranteed clean RO water, high-speed Wi-Fi, transparent attendance dispute committee, and a dedicated Placement & Moot Court Support Cell."
+    },
+    {
+      "id": "faq_02",
+      "category": "Student Issue",
+      "question": "How does the Issue Redressal system work on this portal?",
+      "answer": "Any LC-1 student can submit a campus issue (infrastructure, library, attendance, water, canteen). Every complaint generates a unique ticket ID. Team Prashant Diwakar inspects the issue within 24 hours, takes up the matter directly with the Dean/Administration, and posts transparent updates."
+    },
+    {
+      "id": "faq_03",
+      "category": "Manifesto Suggestions",
+      "question": "Can students suggest points for the Presidential Manifesto?",
+      "answer": "Yes! We believe a manifesto should be written by students, for students. Use the 'Submit Manifesto Suggestion' tab to send your ideas directly to Prashant Diwakar and our drafting committee."
+    },
+    {
+      "id": "faq_04",
+      "category": "Volunteering",
+      "question": "How can I join and volunteer with Team Prashant Diwakar?",
+      "answer": "Fill out the 'Join Team Prashant' form on the portal or call our volunteer desk at +91 6206319802. We welcome passionate students from 1st, 2nd, and 3rd year batches as batch coordinators and digital team members."
+    }
+  ],
+  "team": [
+    {
+      "id": "tm_01",
+      "name": "Prashant Kumar Diwakar",
+      "role": "Candidate for President (LC-1) • Main Leader",
+      "year": "3rd Year (Batch '24)",
+      "phone": "6206319802",
+      "email": "prashant@lc1helpdesk.in",
+      "avatar": "PD",
+      "isMainLeader": true,
+      "bio": "Main Campaign Leader & Presidential Candidate. Dedicated to fearless student advocacy, transparent grievance redressal, clean infrastructure, and 24/7 accessible leadership."
+    },
+    {
+      "id": "tm_02",
+      "name": "Rohan Singh",
+      "role": "Campaign Coordinator & 2nd Year Lead",
+      "year": "2nd Year (Batch '25)",
+      "phone": "9546924281",
+      "email": "rohan.singh@lc1.du.ac.in",
+      "avatar": "RS",
+      "isMainLeader": false,
+      "bio": "Heading on-ground campaign mobilization, volunteer network, student welfare follow-ups, and 2nd year batch coordination."
+    },
+    {
+      "id": "tm_03",
+      "name": "Siddharth Gour",
+      "role": "Senior Campaign Strategist & 3rd Year Lead",
+      "year": "3rd Year (Batch '24)",
+      "phone": "9266583607",
+      "email": "siddharth.gour@lc1.du.ac.in",
+      "avatar": "SG",
+      "isMainLeader": false,
+      "bio": "Managing election strategy, student issues liaison with Faculty administration, policy drafting, and 3rd year outreach."
+    }
+  ],
+  "manifesto": [
+    {
+      "id": "mf_01",
+      "num": "01",
+      "title": "Guaranteed Clean RO Water",
+      "desc": "Functional RO water coolers with weekly TDS checks and hygiene audit on all floors.",
+      "icon": "Droplet"
+    },
+    {
+      "id": "mf_02",
+      "num": "02",
+      "title": "10 PM Library AC & Reading Room",
+      "desc": "Extended library hours till 10:00 PM during exam months with working air-conditioning.",
+      "icon": "Library"
+    },
+    {
+      "id": "mf_03",
+      "num": "03",
+      "title": "High-Speed Campus Wi-Fi",
+      "desc": "High-speed Wi-Fi across LC-1 classrooms and remote off-campus proxy for SCC Online / Manupatra.",
+      "icon": "Wifi"
+    },
+    {
+      "id": "mf_04",
+      "num": "04",
+      "title": "Hygienic Canteen & Subsidized Food",
+      "desc": "Quality inspection of canteen food, strict hygiene protocols, and affordable student pricing.",
+      "icon": "Utensils"
+    },
+    {
+      "id": "mf_05",
+      "num": "05",
+      "title": "Placement & Internship Cell Revival",
+      "desc": "Dedicated placement cell connecting LC-1 students with top tier law firms, senior advocates & NGOs.",
+      "icon": "Scale"
+    },
+    {
+      "id": "mf_06",
+      "num": "06",
+      "title": "Transparent Attendance Dispute Redressal",
+      "desc": "Student representation in medical leave clearance and issue hearings before detention lists.",
+      "icon": "Building2"
+    },
+    {
+      "id": "mf_07",
+      "num": "07",
+      "title": "Formation of Corporate Law Society",
+      "desc": "Establishment of dedicated LC-1 Corporate Law Society for corporate mooting, M&A workshops, tier-1 law firm networking, and specialized commercial law seminars.",
+      "icon": "Scale"
+    }
+  ]
+}
