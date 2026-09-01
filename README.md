@@ -4,4 +4,4 @@ This website is specifically designed for LC1, University of Delhi (DU) students
 
 # 🏛️ LC1 Student Help Desk
 ### An Initiative by Team Prashant Diwakar
-*Official Student Grievance Redressal & Support Portal for Law Centre-1, Faculty of Law, University of Delhi*
+*Team Prashant Diwakar Student Issue Redressal & Support Portal for Law Centre-1, Faculty of Law, University of Delhi*
