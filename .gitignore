@@ -9,4 +9,5 @@ server/.env
 *.log
 .DS_Store
 .vscode/
-.idea/
+client/.vite/
+.vite/
