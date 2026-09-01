@@ -7,6 +7,7 @@ import { Footer } from './components/Footer';
 import { NoticeMarquee } from './components/NoticeMarquee';
 import { NoticeDetailModal } from './components/NoticeDetailModal';
 import { WelcomePosterModal } from './components/WelcomePosterModal';
+import { ScrollToTop } from './components/ScrollToTop';
 
 import { Home } from './pages/Home';
 import { RaiseTicket } from './pages/RaiseTicket';
@@ -40,6 +41,9 @@ function AppContent() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-100/80 text-slate-900 selection:bg-du-gold selection:text-du-navy relative">
+      {/* Scroll To Top on every route/page change */}
+      <ScrollToTop />
+
       {/* Prominent & Bright Full-Website Candidate Background */}
       <div 
         className="fixed inset-0 pointer-events-none bg-cover bg-top md:bg-[center_top_8%] bg-fixed z-0 opacity-30 brightness-110 contrast-105"

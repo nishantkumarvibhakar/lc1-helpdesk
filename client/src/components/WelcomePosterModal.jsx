@@ -93,13 +93,13 @@ export function WelcomePosterModal({ isOpen, onClose }) {
             </a>
           </div>
 
-          {/* Dismiss button */}
+          {/* Dismiss button - Highlighted with Vibrant Gold Fill */}
           <button
             onClick={handleClose}
-            className="w-full sm:w-auto px-4 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-xs font-semibold transition flex items-center justify-center gap-1 border border-white/10"
+            className="w-full sm:w-auto px-5 py-2 rounded-xl bg-gradient-to-r from-amber-400 via-du-gold to-amber-500 hover:from-amber-300 hover:to-du-goldLight text-slate-950 font-black text-xs transition shadow-lg transform hover:scale-105 flex items-center justify-center gap-1.5 border border-amber-300 ring-2 ring-amber-400/50"
           >
             <span>Continue to Help Desk</span>
-            <ArrowRight className="w-3.5 h-3.5" />
+            <ArrowRight className="w-4 h-4 stroke-[3]" />
           </button>
         </div>
       </div>

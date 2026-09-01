@@ -158,11 +158,11 @@ export function Home({ onSelectNotice, onOpenPoster }) {
           {/* Presidential Badges & Slogans */}
           <div className="text-center space-y-4 max-w-4xl mx-auto">
             {/* Outlined Gold Pill Badge */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-900/80 text-du-gold border border-amber-500/60 text-xs sm:text-sm font-semibold uppercase tracking-wider shadow-xl backdrop-blur-md">
-              <span className="inline-flex items-center gap-1 text-[11px] font-black text-amber-300 bg-slate-950/90 border border-amber-400/60 px-2 py-0.5 rounded">
+            <div className="inline-flex flex-wrap sm:flex-nowrap items-center justify-center gap-2 sm:gap-2.5 px-3.5 sm:px-4 py-1.5 rounded-2xl sm:rounded-full bg-slate-900/90 text-du-gold border border-amber-500/60 text-xs sm:text-sm font-semibold uppercase tracking-wider shadow-xl backdrop-blur-md max-w-full mx-auto">
+              <span className="inline-flex items-center gap-1 text-[11px] font-black text-amber-300 bg-slate-950 border border-amber-400/60 px-2 py-0.5 rounded whitespace-nowrap shrink-0">
                 <span>☀️</span> LC-1
               </span>
-              <span className="text-amber-400 font-bold text-[11px] sm:text-xs tracking-wider">
+              <span className="text-amber-400 font-bold text-[10px] sm:text-xs tracking-wider text-center">
                 PRESIDENTIAL ELECTION 2026 • FACULTY OF LAW, UNIVERSITY OF DELHI
               </span>
             </div>

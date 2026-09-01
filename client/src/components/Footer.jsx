@@ -65,13 +65,13 @@ export function Footer({ onOpenPoster }) {
           <div className="space-y-3">
             <h4 className="text-white font-semibold text-sm uppercase tracking-wider text-du-gold">Quick Navigation</h4>
             <ul className="space-y-2 text-xs">
-              <li><Link to="/" className="hover:text-white transition">Home Portal</Link></li>
-              <li><Link to="/raise-ticket?type=Issue" className="hover:text-white transition">🚨 Raise Campus Issues</Link></li>
-              <li><Link to="/raise-ticket?type=Manifesto+Suggestion" className="hover:text-white transition">💡 Submit Manifesto Idea</Link></li>
-              <li><Link to="/raise-ticket?type=Volunteer+Application" className="hover:text-white transition">🤝 Join Campaign Team (Volunteer)</Link></li>
-              <li><Link to="/announcements" className="hover:text-white transition">📢 Campaign Events & Schedule</Link></li>
-              <li><Link to="/track" className="hover:text-white transition">Track Status</Link></li>
-              <li><Link to="/faq" className="hover:text-white transition">Campaign FAQs</Link></li>
+              <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-white transition">Home Portal</Link></li>
+              <li><Link to="/raise-ticket?type=Issue" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-white transition">🚨 Raise Campus Issues</Link></li>
+              <li><Link to="/raise-ticket?type=Manifesto+Suggestion" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-white transition">💡 Submit Manifesto Idea</Link></li>
+              <li><Link to="/raise-ticket?type=Volunteer+Application" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-white transition">🤝 Join Campaign Team (Volunteer)</Link></li>
+              <li><Link to="/announcements" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-white transition">📢 Campaign Events & Schedule</Link></li>
+              <li><Link to="/track" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-white transition">Track Status</Link></li>
+              <li><Link to="/faq" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-white transition">Campaign FAQs</Link></li>
             </ul>
           </div>
 

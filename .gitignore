@@ -11,3 +11,4 @@ server/.env
 .vscode/
 client/.vite/
 .vite/
+.vercel
