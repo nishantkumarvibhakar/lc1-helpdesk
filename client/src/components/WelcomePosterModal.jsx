@@ -75,21 +75,13 @@ export function WelcomePosterModal({ isOpen, onClose }) {
           {/* Quick Contact Info */}
           <div className="flex items-center gap-3 w-full sm:w-auto justify-center sm:justify-start">
             <a
-              href="tel:6206319802"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-du-gold hover:bg-du-goldLight text-du-navy font-bold text-xs shadow transition"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              <span>Call: 6206319802</span>
-            </a>
-
-            <a
               href="https://instagram.com/prashantkumardiwakar1"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-pink-600/30 hover:bg-pink-600 text-pink-200 hover:text-white border border-pink-500/40 text-xs font-semibold transition"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-pink-600/30 hover:bg-pink-600 text-pink-200 hover:text-white border border-pink-500/40 text-xs font-semibold transition"
             >
               <Instagram className="w-3.5 h-3.5 text-pink-400" />
-              <span className="hidden xs:inline">Instagram</span>
+              <span>Connect on Instagram</span>
             </a>
           </div>
 

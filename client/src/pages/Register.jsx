@@ -206,7 +206,7 @@ export function Register() {
                   type="tel"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="6206319802"
+                  placeholder="9876543210"
                   className="w-full pl-9 pr-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:ring-2 focus:ring-du-gold focus:outline-none"
                 />
               </div>

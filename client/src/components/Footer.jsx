@@ -84,8 +84,8 @@ export function Footer({ onOpenPoster }) {
                 <span>Faculty of Law, Chhatra Marg, North Campus, University of Delhi, Delhi - 110007</span>
               </p>
               <p className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-du-gold flex-shrink-0" />
-                <span>Call / WhatsApp: <strong>6206319802</strong></span>
+                <Scale className="w-4 h-4 text-du-gold flex-shrink-0" />
+                <span>Team Prashant Diwakar • 24/7 Student Support</span>
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-du-gold flex-shrink-0" />

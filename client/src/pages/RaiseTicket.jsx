@@ -438,7 +438,7 @@ export function RaiseTicket() {
                     type="tel"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="e.g. 6206319802"
+                    placeholder="e.g. 9876543210"
                     className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-du-gold"
                   />
                 </div>

@@ -470,9 +470,9 @@ export function Home({ onSelectNotice, onOpenPoster }) {
                     </p>
                   </div>
 
-                  <div className="pt-3 border-t border-slate-100 flex items-center justify-center gap-2 text-xs font-bold text-du-navy">
-                    <Phone className="w-4 h-4 text-du-gold" />
-                    <a href={`tel:${member.phone}`} className="hover:underline tracking-wide">{member.phone}</a>
+                  <div className="pt-3 border-t border-slate-100 flex items-center justify-center gap-1.5 text-xs font-bold text-slate-600">
+                    <Scale className="w-3.5 h-3.5 text-du-gold" />
+                    <span>Team Prashant Diwakar</span>
                   </div>
                 </div>
               );
@@ -509,11 +509,13 @@ export function Home({ onSelectNotice, onOpenPoster }) {
             </a>
 
             <a
-              href="tel:6206319802"
+              href="https://instagram.com/prashant_diwakar_for_lc1"
+              target="_blank"
+              rel="noreferrer"
               className="px-5 py-2.5 rounded-xl font-bold text-xs bg-slate-900/40 hover:bg-slate-900/60 text-white border border-white/30 transition flex items-center gap-1.5"
             >
-              <Phone className="w-3.5 h-3.5" />
-              <span>Call: 6206319802</span>
+              <span>@prashant_diwakar_for_lc1</span>
+              <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
         </section>

@@ -188,14 +188,18 @@ export function Login() {
           </button>
         </form>
 
-        <div className="pt-4 border-t border-slate-100 text-center text-xs text-slate-500 space-y-2">
+        <div className="pt-4 border-t border-slate-100 text-center text-xs text-slate-500 space-y-3">
           {activeTab === 'student' ? (
-            <p>
-              New Law Centre-1 student?{' '}
-              <Link to="/register" className="font-semibold text-primary-600 hover:underline">
-                Create an account
+            <div className="bg-amber-50 border border-amber-200/80 rounded-2xl p-3 text-center space-y-2 shadow-sm">
+              <p className="text-slate-800 font-semibold text-xs">New to LC-1 Help Desk?</p>
+              <Link
+                to="/register"
+                className="inline-flex items-center justify-center gap-1.5 w-full py-2.5 px-4 rounded-xl font-bold text-xs bg-du-navy hover:bg-slate-900 text-du-gold shadow transition transform hover:-translate-y-0.5"
+              >
+                <span>Sign Up as New User</span>
+                <ArrowRight className="w-3.5 h-3.5" />
               </Link>
-            </p>
+            </div>
           ) : (
             <p className="text-slate-400">
               Authorized Team Prashant Diwakar representatives only.

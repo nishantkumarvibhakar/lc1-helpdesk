@@ -106,7 +106,7 @@ export function AdminDashboard() {
     isPinned: true,
     linkText: '',
     linkUrl: '',
-    contactPerson: 'Team Prashant Diwakar (+91 6206319802)'
+    contactPerson: 'Team Prashant Diwakar'
   });
 
   // Campaign Poster Modal state
@@ -130,7 +130,7 @@ export function AdminDashboard() {
     name: '',
     role: '',
     year: '3rd Year (Batch \'24)',
-    phone: '6206319802',
+    phone: '',
     email: '',
     bio: '',
     isMainLeader: false
@@ -303,7 +303,7 @@ export function AdminDashboard() {
         isPinned: true,
         linkText: '',
         linkUrl: '',
-        contactPerson: 'Team Prashant Diwakar (+91 6206319802)'
+        contactPerson: 'Team Prashant Diwakar'
       });
       loadAllData();
     } catch (err) {
@@ -325,7 +325,7 @@ export function AdminDashboard() {
       isPinned: Boolean(notice.isPinned),
       linkText: notice.linkText || '',
       linkUrl: notice.linkUrl || '',
-      contactPerson: notice.contactPerson || 'Team Prashant Diwakar (+91 6206319802)'
+      contactPerson: notice.contactPerson || 'Team Prashant Diwakar'
     });
     setShowNoticeModal(true);
   };
@@ -408,7 +408,7 @@ export function AdminDashboard() {
         name: '',
         role: '',
         year: '3rd Year (Batch \'24)',
-        phone: '6206319802',
+        phone: '',
         email: '',
         bio: '',
         isMainLeader: false
@@ -607,7 +607,7 @@ export function AdminDashboard() {
                 isPinned: true,
                 linkText: '',
                 linkUrl: '',
-                contactPerson: 'Team Prashant Diwakar (+91 6206319802)'
+                contactPerson: 'Team Prashant Diwakar'
               });
               setShowNoticeModal(true);
             }}
@@ -968,7 +968,7 @@ export function AdminDashboard() {
                   isPinned: true,
                   linkText: '',
                   linkUrl: '',
-                  contactPerson: 'Team Prashant Diwakar (+91 6206319802)'
+                  contactPerson: 'Team Prashant Diwakar'
                 });
                 setShowNoticeModal(true);
               }}
@@ -1177,7 +1177,7 @@ export function AdminDashboard() {
                   name: '',
                   role: '',
                   year: '3rd Year (Batch \'24)',
-                  phone: '6206319802',
+                  phone: '',
                   email: '',
                   bio: '',
                   isMainLeader: false
@@ -1695,7 +1695,7 @@ export function AdminDashboard() {
                     type="text"
                     value={teamForm.phone}
                     onChange={(e) => setTeamForm({ ...teamForm, phone: e.target.value })}
-                    placeholder="6206319802"
+                    placeholder="9876543210"
                     className="w-full p-2.5 rounded-xl border border-slate-300"
                   />
                 </div>

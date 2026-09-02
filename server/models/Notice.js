@@ -63,7 +63,7 @@ const noticeSchema = new mongoose.Schema({
   },
   contactPerson: {
     type: String,
-    default: 'Team Prashant Diwakar (+91 6206319802)'
+    default: 'Team Prashant Diwakar'
   },
   rsvpCount: {
     type: Number,
